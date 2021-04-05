@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Philosopher', sans-serif;
+}
+body
+{
+    background-image: url(background.jpg);
+    margin: 0;
+}
+#profil
+{
+    text-align: left;
+}
+h1
+{
+    font-size: 2.8rem;
+    text-align: right;
+    margin-right: 56px;
+}
+#photo
+{
+    width:350px;
+    height: auto;
+    margin-left:74%;
+    margin-top: 30px;
+}
+nav
+{
+    width: 100%;
+    margin: 0 auto;
+    position: sticky;
+    top: 10px;
+}
+nav a
+{
+    display: block;    
+    text-decoration: underline solid;
+    font-size: 1.8rem;
+    padding: 10px 10px;
+
+}
+nav ul
+{
+    list-style-type: none;
+}
+
+
+nav ul li
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+nav ul::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav a:hover
+{
+    color: darkseagreen;
+}
+a:focus
+{
+    color: black;
+}
+a:visited
+{
+    color: black;
+}
+.sousMenu
+{
+    display: none;
+}
+nav > ul li:hover .sousMenu
+{
+    display: block;
+}
+.sousMenu
+{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sousMenu li
+{
+    float: none;
+    width: 100%;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 1.5em;
+}
