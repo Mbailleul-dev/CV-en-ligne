@@ -13,6 +13,27 @@ body
 {
     text-align: left;
 }
+#profil, #nom
+{
+    position: relative;
+}
+#profil:hover::after, #nom:hover::after
+{
+  font-size: 2.2rem;
+  color: orangered;
+  content: attr(aria-label);  /* on affiche aria-label */
+  position: absolute;
+  top: +0.5em;
+  left: 62%;
+  transform: translateX(-50%); /* on centre horizontalement  */
+  
+  white-space: nowrap;  /* on interdit le retour à la ligne */
+}
+#nom a
+{
+    text-decoration: none;
+    color: black;
+}
 h1
 {
     font-size: 2.8rem;
@@ -39,7 +60,6 @@ nav a
     text-decoration: underline solid;
     font-size: 2rem;
     padding: 10px 10px;
-
 }
 nav ul
 {
