@@ -21,9 +21,9 @@ h1
 }
 #photo
 {
-    width:350px;
+    width:300px;
     height: auto;
-    margin-left:74%;
+    margin-left:76%;
     margin-top: 30px;
 }
 nav
@@ -37,7 +37,7 @@ nav a
 {
     display: block;    
     text-decoration: underline solid;
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding: 10px 10px;
 
 }
@@ -61,7 +61,7 @@ nav ul::after
 }
 nav a:hover
 {
-    color: darkseagreen;
+    color: orangered;
 }
 a:focus
 {
